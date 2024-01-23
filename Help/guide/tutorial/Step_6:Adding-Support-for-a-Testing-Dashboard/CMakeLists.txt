@@ -40,7 +40,6 @@ install(FILES "${PROJECT_BINARY_DIR}/TutorialConfig.h"
   DESTINATION include
   )
 
-# TODO 1: Replace enable_testing() with include(CTest)
 # enable testing
 enable_testing()
 

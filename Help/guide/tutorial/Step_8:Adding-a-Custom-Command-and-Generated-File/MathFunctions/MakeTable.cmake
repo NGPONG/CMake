@@ -1,3 +1,5 @@
+# https://cmake.org/cmake/help/latest/command/add_custom_command.html#examples-generating-files
+
 add_executable(
   MakeTable MakeTable.cxx
 )

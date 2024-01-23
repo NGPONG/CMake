@@ -1,5 +1,5 @@
 CMakeFiles/Tutorial.dir/tutorial.cxx.o: \
- /home/ngpong/CMake/Help/guide/tutorial/Step1/tutorial.cxx \
+ /home/ngpong/CMake/Help/guide/tutorial/Step_1:A-Basic-Starting-Point/tutorial.cxx \
  /usr/include/stdc-predef.h /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -156,4 +156,4 @@ CMakeFiles/Tutorial.dir/tutorial.cxx.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/ngpong/CMake/Help/guide/tutorial/Step1/build/TutorialConfig.h
+ /home/ngpong/CMake/Help/guide/tutorial/Step_1:A-Basic-Starting-Point/build/TutorialConfig.h

@@ -1,4 +1,4 @@
-# Install script for directory: /home/ngpong/CMake/Help/guide/tutorial/Step1
+# Install script for directory: /home/ngpong/CMake/Help/guide/tutorial/Step_1:A-Basic-Starting-Point
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ngpong/CMake/Help/guide/tutorial/Step1/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ngpong/CMake/Help/guide/tutorial/Step_1:A-Basic-Starting-Point/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

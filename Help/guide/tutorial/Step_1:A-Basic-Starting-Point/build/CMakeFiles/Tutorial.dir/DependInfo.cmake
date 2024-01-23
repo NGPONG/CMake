@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ngpong/CMake/Help/guide/tutorial/Step1/tutorial.cxx" "CMakeFiles/Tutorial.dir/tutorial.cxx.o" "gcc" "CMakeFiles/Tutorial.dir/tutorial.cxx.o.d"
+  "/home/ngpong/CMake/Help/guide/tutorial/Step_1:A-Basic-Starting-Point/tutorial.cxx" "CMakeFiles/Tutorial.dir/tutorial.cxx.o" "gcc" "CMakeFiles/Tutorial.dir/tutorial.cxx.o.d"
   )
 
 # Targets to which this target links.

@@ -5,12 +5,12 @@ add_library(MathFunctions
 option(USE_MYMATH "Use tutorial provided math implementation" ON)
 
 if (USE_MYMATH)
-  include(MakeTable.cmake)
-
   target_compile_definitions(
     MathFunctions
     PRIVATE "USE_MYMATH"
   )
+
+  include(MakeTable.cmake)
 
   # 0x1: 设置生成 SqrtLibrary 需要依赖的头文件，cmake系统会在进行查找，包括 add_custom_command 的输出
   # 0x2: CMAKE_CURRENT_BINARY_DIR 相较于 PROJECT_BINARY_DIR/CMAKE_BINARY_DIR不同

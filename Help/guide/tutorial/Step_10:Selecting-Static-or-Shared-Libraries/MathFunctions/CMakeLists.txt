@@ -20,12 +20,22 @@ if(USE_MYMATH)
                              ${CMAKE_CURRENT_BINARY_DIR}
                              )
 
+  # 0x1: 设置 target 的 POSITION_INDEPENDENT_CODE 属性能够添加 -fPIC 编译标志
+  #   * 这里由于 MathFunctions 被默认编译为 SHARED 库，所以在 libSqrtLibrary.a 在链接的过程中
+  #   必须要添加此标志，否则会链接失败
+  set_target_properties(
+    SqrtLibrary
+    PROPERTIES POSITION_INDEPENDENT_CODE ${BUILD_SHARED_LIBS}
+  )
+
   target_link_libraries(SqrtLibrary PUBLIC tutorial_compiler_flags)
 
   target_link_libraries(MathFunctions PRIVATE SqrtLibrary)
 endif()
 
 target_link_libraries(MathFunctions PUBLIC tutorial_compiler_flags)
+
+target_compile_definitions(MathFunctions PRIVATE "EXPORTING_MYMATH")
 
 set(installable_libs MathFunctions tutorial_compiler_flags)
 if(TARGET SqrtLibrary)
