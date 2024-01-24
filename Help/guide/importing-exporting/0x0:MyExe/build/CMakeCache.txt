@@ -14,9 +14,6 @@
 # EXTERNAL cache entries
 ########################
 
-//Build list for applications
-APPS_BUILD:STRING=all
-
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -212,9 +209,6 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Build core with modules
-MODULES:STRING=static
-
 //Value Computed by CMake
 MyExe_BINARY_DIR:STATIC=/home/ngpong/CMake/Help/guide/importing-exporting/0x0:MyExe/build
 
@@ -224,19 +218,11 @@ MyExe_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 MyExe_SOURCE_DIR:STATIC=/home/ngpong/CMake/Help/guide/importing-exporting/0x0:MyExe
 
-//Build core with scripts
-SCRIPTS:STRING=static
-
-//Build list for tools
-TOOLS_BUILD:STRING=none
-
 
 ########################
 # INTERNAL cache entries
 ########################
 
-//STRINGS property for variable: APPS_BUILD
-APPS_BUILD-STRINGS:INTERNAL=none;all;auth-only;world-only
 //ADVANCED property for variable: CMAKE_ADDR2LINE
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
@@ -380,10 +366,4 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
-//STRINGS property for variable: MODULES
-MODULES-STRINGS:INTERNAL=none;static;dynamic
-//STRINGS property for variable: SCRIPTS
-SCRIPTS-STRINGS:INTERNAL=none;static;dynamic;minimal-static;minimal-dynamic
-//STRINGS property for variable: TOOLS_BUILD
-TOOLS_BUILD-STRINGS:INTERNAL=none;all;db-only;maps-only
 

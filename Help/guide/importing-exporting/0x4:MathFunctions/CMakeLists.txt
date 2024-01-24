@@ -81,6 +81,7 @@ install(
 # find_package
 #  帮我们 include
 #  帮我们检查一些依赖项？
+#  module mode and config mode，这里介绍的是 config mode
 
 # 0x5: CMakePackageConfigHelpers模块提供一个package生成config的一些帮助函数
 include(CMakePackageConfigHelpers)
